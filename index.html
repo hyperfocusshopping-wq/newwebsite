@@ -63,7 +63,6 @@ nav a:hover{
     font-size:52px;
     font-weight:700;
     margin-bottom:20px;
-    line-height:1.2;
 }
 
 .hero p{
@@ -115,16 +114,10 @@ nav a:hover{
     border-radius:14px;
     flex:1;
     min-width:280px;
-    transition:0.3s;
-}
-
-.card:hover{
-    transform:translateY(-6px);
 }
 
 .card h3{
     margin-bottom:18px;
-    font-size:20px;
 }
 
 .card p{
@@ -137,28 +130,16 @@ nav a:hover{
     opacity:0.8;
 }
 
-.about-text{
-    max-width:800px;
-    margin:auto;
-    opacity:0.8;
-    line-height:1.8;
-}
-
-.contact-info{
-    max-width:600px;
+.info-block{
+    max-width:700px;
     margin:auto;
     text-align:left;
     line-height:1.8;
 }
 
-.contact-info h4{
+.info-block h4{
     margin-top:20px;
     color:#3b82f6;
-    font-size:16px;
-}
-
-.contact-info p{
-    opacity:0.8;
 }
 
 footer{
@@ -184,9 +165,9 @@ footer{
 <header>
 <div class="logo">YourBrand</div>
 <nav>
-<a href="#about">About</a>
 <a href="#services">Services</a>
 <a href="#platforms">Platforms</a>
+<a href="#about">About</a>
 <a href="#contact">Contact</a>
 </nav>
 </header>
@@ -195,16 +176,6 @@ footer{
 <h1>We Scale Brands Across Global Marketplaces</h1>
 <p>We provide full-service marketplace management, advertising strategy and performance-driven growth solutions for ambitious ecommerce brands.</p>
 <a href="#contact" class="btn">Book a Strategy Call</a>
-</section>
-
-<section class="section" id="about">
-<h2>About Us</h2>
-<p class="about-text">
-We are a performance-driven ecommerce growth agency specializing in marketplace management,
-advertising strategy and global expansion. Our mission is to help ambitious brands
-scale profitably across international marketplaces with data-backed decision making
-and operational excellence.
-</p>
 </section>
 
 <section class="section" id="services">
@@ -230,10 +201,11 @@ and operational excellence.
 <p class="platforms">Amazon • eBay • Walmart • Shopify</p>
 </section>
 
-<section class="section" id="contact">
-<h2>Contact Us</h2>
+<!-- ABOUT US (eski contact bilgileri buraya taşındı) -->
+<section class="section" id="about">
+<h2>About Us</h2>
 
-<div class="contact-info">
+<div class="info-block">
 
 <h4>Owner</h4>
 <p>ATAKAN BAYIR - Founder & Performance Marketing Lead</p>
@@ -256,7 +228,15 @@ Turkey
 </p>
 
 </div>
+</section>
 
+<!-- AYRI CONTACT US -->
+<section class="section" id="contact">
+<h2>Contact Us</h2>
+<p style="opacity:0.7;">
+Schedule a strategy call to discuss your brand’s growth potential.
+</p>
+<a href="mailto:atakan.bayir@hotmail.com" class="btn" style="margin-top:30px;">Email Us</a>
 </section>
 
 <footer>
